@@ -1,0 +1,35 @@
+.headers {
+  color: rgb(217, 124, 80);
+  font-family: "Yeseva One", cursive;
+  font-size: 24px;
+}
+.component {
+  padding: 250px 0px;
+}
+
+.language-image {
+  width: 35px;
+  height: 35px;
+}
+
+.button {
+  text-transform: capitalize;
+  border-radius: 25px;
+  color: #003844;
+}
+
+.button:hover {
+  background-color: rgb(217, 124, 80) !important;
+  color: rgb(22, 44, 58);
+}
+.quote-rm {
+  color: rgb(217, 124, 80);
+  font-family: "Yeseva One", cursive;
+}
+
+@media screen and (max-width: 850px) {
+  .component {
+    padding-top: 0px;
+    padding-bottom: 80px;
+  }
+}

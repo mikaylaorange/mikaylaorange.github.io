@@ -1,0 +1,30 @@
+.work-card {
+  width: 450px;
+  margin-right: 60px;
+  height: 450px;
+  flex-direction: row;
+  display: inline-block;
+}
+.button {
+  text-transform: capitalize;
+  border-radius: 25px;
+  color:  #003844;
+}
+
+.button:hover {
+  background-color: #003844 !important;
+  color: #FFB100;
+}
+@media screen and (max-width: 850px) {
+  .work-card {
+  width: 350px;
+  display: inline-block;
+  margin-right: 0px;
+  height: 450px;
+  flex-direction: unset;
+  margin-top: 20px;
+  }
+  .Grid.MuiGrid-spacing-xs-3  {
+    margin: 0px;
+  }
+}

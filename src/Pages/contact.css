@@ -1,0 +1,25 @@
+.button {
+  text-transform: capitalize;
+  border-radius: 25px;
+  color:  #003844;
+}
+
+.button:hover {
+  background-color: rgb(217, 124, 80) !important;
+  color: rgb(22, 44, 58);
+}
+
+.subheader {
+  font-size: 24px;
+  font-family: 'Josefin Sans', sans-serif;
+    color: rgb(219, 169, 136);
+}
+.subheader-div {
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+.chat {
+  color: rgb(217, 124, 80);
+font-family: 'Yeseva One', cursive;
+}
